@@ -1,0 +1,60 @@
+#MainNavBar{
+display: flex;
+justify-content: space-between;
+position: fixed;
+background-color: rgba(1, 126, 1, 0.5);
+text-align: center;
+width: 100vw;
+z-index: 100;
+backdrop-filter:blur(4.5px);
+
+
+}
+
+a {
+    text-decoration: none;
+    color: skyblue;
+
+}
+a:visited{
+    color: skyblue;
+}
+.NavLinks{
+    font-size: 20px;
+}
+.Horse_List{
+    display: flex;
+    flex-direction: column;
+
+}
+#NavBarLogo{
+    padding-top: 10em;
+    padding-left: 3em;
+}
+.hay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hay:hover{
+    cursor: pointer;
+
+}
+.western_riding{
+    font-size: 20px;
+}
+.english_riding{
+    font-size: 20px;
+}
+.color{
+    font-size: 20px;
+}
+.horse_color{
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+}

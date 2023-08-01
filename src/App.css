@@ -1,10 +1,25 @@
 .App {
   text-align: center;
+  background-color: green;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.riding {
+  padding: 2em;
+  margin-top: 20px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 10px 10px 10px 10px rgb(2, 87, 2);
+}
+#horses{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +29,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
